@@ -6,6 +6,7 @@ header {
   color: #efede7;
   place-content: end;
   display: flex;
+  /* display: inline-block; */
 }
 
 #menu li {
@@ -19,4 +20,38 @@ header {
 #menu a {
   text-decoration: none;
   color: #efede7;
+}
+
+.hidden {
+  /*    display: none;*/
+  /*    transform: scale(0);*/
+  transform: translateX(-100%);
+  opacity: 0;
+}
+
+@media (max-width: 600px) {
+  .hidden {
+    display: none;
+  }
+}
+
+#menu {
+  list-style-type: none;
+  transition: transform 0.3s;
+  transform-origin: top left;
+}
+
+@media only screen and (min-width: 600px) {
+  #menuknap {
+    display: none;
+  }
+
+  #menu.hidden {
+    transform: translateX(0);
+    opacity: 1;
+  }
+
+  #menu li {
+    display: inline-block;
+  }
 }
