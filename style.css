@@ -1,3 +1,8 @@
+img {
+  max-width: 100%;
+  height: auto;
+}
+
 html body {
   margin: 0;
 }
@@ -24,6 +29,20 @@ header {
 
 #menu a {
   text-decoration: none;
+  color: #efede7;
+}
+
+#first_section {
+  display: grid;
+}
+
+#first_section img {
+  grid-area: 1/1;
+}
+
+#first_section h1 {
+  grid-area: 1/1;
+  z-index: 1;
   color: #efede7;
 }
 
