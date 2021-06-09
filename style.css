@@ -52,6 +52,10 @@ header {
   font-family: Myriad Pro;
 }
 
+h2 {
+  font-family: Myriad Pro;
+}
+
 .hidden {
   /*    display: none;*/
   /*    transform: scale(0);*/
@@ -84,5 +88,10 @@ header {
 
   #menu li {
     display: inline-block;
+  }
+
+  #second_section {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
   }
 }
