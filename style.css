@@ -23,7 +23,7 @@ header {
   color: #efede7;
   font-family: Abadi MT Condensed Light;
   text-align: center;
-  margin: 1em;
+  margin-top: 1em;
   text-transform: uppercase;
 }
 
@@ -34,6 +34,11 @@ header {
 
 #first_section {
   display: grid;
+  /* background-image: url(billeder/baggrund.jpg); */
+  background-size: cover;
+  background-position: 72%;
+  /* height: 100vw;
+  width: 100%; */
 }
 
 #first_section img {
@@ -44,6 +49,7 @@ header {
   grid-area: 1/1;
   z-index: 1;
   color: #efede7;
+  font-family: Myriad Pro;
 }
 
 .hidden {
