@@ -7,6 +7,11 @@ html body {
   margin: 0;
 }
 
+#main1 {
+  margin-left: 4em;
+  margin-right: 4em;
+}
+
 header {
   background-color: #d8adad;
 }
@@ -93,8 +98,7 @@ h2 {
   #second_section {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 30px;
-    margin: 2em;
+    gap: 40px;
   }
 
   #third_section {
