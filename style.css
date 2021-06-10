@@ -75,6 +75,22 @@ header {
   font-size: 0.8em;
 }
 
+h2 {
+  font-family: Myriad Pro;
+  font-size: 2em;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+h3 {
+  font-family: Myriad Pro;
+  text-transform: uppercase;
+}
+
+p {
+  font-family: Abadi MT Condensed Light;
+}
+
 .box2 {
   border: solid #d8adad;
   margin-top: 40px;
@@ -96,12 +112,18 @@ header {
   position: absolute;
   font-family: Myriad Pro;
   text-transform: uppercase;
-  color: #efede7;
+  color: #030303;
   text-align: center;
 }
 
-h2 {
-  font-family: Myriad Pro;
+#fourth_section img {
+  margin-bottom: 40px;
+}
+
+#fourth_section .first,
+.second {
+  border: solid #d8adad;
+  margin-bottom: 40px;
 }
 
 .hidden {
@@ -135,6 +157,7 @@ h2 {
     margin: 0;
     display: flex;
     gap: 50px;
+    margin-left: 2em;
   }
 
   #menu li {
@@ -151,6 +174,10 @@ h2 {
     margin-top: 9em;
     margin-left: 14em;
     font-size: 1em;
+  }
+
+  h2 {
+    text-align: start;
   }
 
   #second_section {
@@ -214,9 +241,8 @@ h2 {
     font-size: 5.5em;
   }
   #first_section h3 {
-        margin-top: 5.5em;
+    margin-top: 5.5em;
     margin-left: 10em;
     font-size: 2em;
-}
   }
 }
