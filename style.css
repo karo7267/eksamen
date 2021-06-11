@@ -39,7 +39,7 @@ header {
 
 #first_section {
   display: grid;
-  background-image: url(billeder/baggrund.jpg);
+  background-image: url(billeder/baggrund.webp);
   background-size: cover;
   background-position: 72%;
   height: 100vh;
