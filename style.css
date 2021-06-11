@@ -114,6 +114,65 @@ p {
   text-transform: uppercase;
   color: #030303;
   text-align: center;
+  background-color: #ffffff85;
+  padding: 1em;
+}
+
+.img2 {
+  display: grid;
+}
+
+.img2:hover .img2_1 {
+  display: block;
+}
+
+.img2_1 {
+  display: none;
+  position: absolute;
+  font-family: Myriad Pro;
+  text-transform: uppercase;
+  color: #030303;
+  text-align: center;
+  background-color: #ffffff85;
+  padding: 1em;
+}
+
+.img3 {
+  display: grid;
+}
+
+.img3:hover .img3_1 {
+  display: block;
+}
+
+.img3_1 {
+  display: none;
+  position: absolute;
+  font-family: Myriad Pro;
+  text-transform: uppercase;
+  color: #030303;
+  text-align: center;
+  background-color: #ffffff85;
+  padding: 1em;
+}
+
+.img4 {
+  display: grid;
+}
+
+.img4:hover .img4_1 {
+  display: block;
+}
+
+.img4_1 {
+  display: none;
+  position: absolute;
+  font-family: Myriad Pro;
+  text-transform: uppercase;
+  color: #030303;
+  text-align: center;
+  background-color: #ffffff85;
+  padding: 1em;
 }
 
 #fourth_section img {
