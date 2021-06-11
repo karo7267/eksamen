@@ -77,7 +77,7 @@ header {
 
 h2 {
   font-family: Myriad Pro;
-  font-size: 2em;
+  font-size: 1.6em;
   text-align: center;
   text-transform: uppercase;
 }
@@ -121,9 +121,26 @@ p {
 }
 
 #fourth_section .first,
-.second {
+.second,
+.third {
   border: solid #d8adad;
   margin-bottom: 40px;
+  padding: 2em;
+}
+
+.fourth a {
+  background-color: #d8adad;
+  text-decoration: none;
+  color: #efede7;
+  font-family: Abadi MT Condensed Light;
+  font-size: 1em;
+  text-transform: uppercase;
+  padding: 1em;
+}
+.fourth {
+  margin-top: 70px;
+  margin-bottom: 70px;
+  text-align: center;
 }
 
 .hidden {
@@ -217,6 +234,18 @@ p {
   .img4 {
     grid-column-start: 2;
     grid-row-start: 2;
+  }
+
+  .fourth a {
+    font-size: 2em;
+    padding: 1em;
+  }
+  #fourth_section .first,
+  .second,
+  .third {
+    border: solid #d8adad;
+    margin-bottom: 40px;
+    padding: 3em;
   }
 }
 
