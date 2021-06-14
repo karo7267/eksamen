@@ -93,6 +93,17 @@ p {
   font-size: 1.2em;
 }
 
+#second_section2 li,
+ul {
+  font-family: Abadi MT Condensed Light;
+  list-style: none;
+  padding: 0;
+}
+
+#second_section2 .box2 {
+  margin-bottom: 40px;
+}
+
 .box2 {
   border: solid #d8adad;
   margin-top: 40px;
@@ -240,11 +251,15 @@ p {
     margin: 0;
     display: flex;
     gap: 50px;
-    margin-left: 2em;
+    margin-left: 4em;
   }
 
   #menu li {
     display: inline-block;
+  }
+
+  #main1 {
+    max-width: 1200px;
   }
 
   #first_section h1 {
@@ -340,5 +355,14 @@ p {
     margin-top: 5.5em;
     margin-left: 10em;
     font-size: 2em;
+  }
+
+  #main1 {
+    margin-left: 10em;
+    margin-right: 10em;
+  }
+
+  #menu.hidden {
+    margin-left: 10em;
   }
 }
