@@ -22,7 +22,6 @@ header {
   place-content: end;
   display: flex;
   font-family: Abadi MT Condensed Light;
-  /* display: inline-block; */
 }
 
 #menu li {
