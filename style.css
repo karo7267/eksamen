@@ -9,8 +9,8 @@ html body {
 }
 
 #main1 {
-  margin-left: 4em;
-  margin-right: 4em;
+  margin-left: 2em;
+  margin-right: 2em;
 }
 
 header {
@@ -263,6 +263,8 @@ ul {
 
   #main1 {
     max-width: 1200px;
+    margin-left: 4em;
+    margin-right: 4em;
   }
 
   #first_section h1 {
